@@ -396,6 +396,16 @@ header .logo a {
   text-transform: uppercase;
 }
 
+.items .expert {
+  background-color: #fee0ea;
+  padding: 5px;
+  font-size: 12px;
+  border-radius: 15px;
+  font-weight: bold;
+  color: #ae128f;
+  text-transform: uppercase;
+}
+
 /* Test Flex Grid */
 @media (min-width: 980px) {
   .flex-wrapper {
