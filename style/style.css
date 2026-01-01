@@ -9,7 +9,7 @@
 }
 
 .resolution {
-  display: none;
+  display: none !important;
 }
 
 body {
@@ -407,11 +407,11 @@ header .logo a {
 }
 
 /* Test Flex Grid */
-@media (min-width: 980px) {
+@media (min-width: 720px) {
   .flex-wrapper {
-    /* padding-left: 10%;
-    padding-right: 10%; */
-    /* background-color: rgb(62, 204, 18); */
+    padding-left: 10%;
+    padding-right: 10%; 
+    /* background-color: rgb(62, 204, 18);   */
   }
 
   .flex-grid {
